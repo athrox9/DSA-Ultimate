@@ -38,14 +38,14 @@
 
 //sort array
 
-const number = new Array(13,4,1,5,8,13,4,3,0)
-for (let i = 1; i<number.length;i++){
-    var current = number[i]
-    var j = i -1 
-    while (j>=0 && number[j] > current){ // 13,4 sorted, then 13,1; then 1,4
-        number[j+1] = number[j]
-        j--
-    }
-    number[j+1] = current 
-}
-console.log(number);
+// const number = new Array(13,4,1,5,8,13,4,3,0)
+// for (let i = 1; i<number.length;i++){
+//     var current = number[i]
+//     var j = i -1 
+//     while (j>=0 && number[j] > current){ // 13,4 sorted, then 13,1; then 1,4
+//         number[j+1] = number[j]
+//         j--
+//     }
+//     number[j+1] = current 
+// }
+// console.log(number);
